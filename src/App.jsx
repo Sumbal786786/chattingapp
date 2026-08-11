@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import io from "socket.io-client";
 
-const socket = io.connect("http://localhost:3001");
+const socket = io.connect("backendchatapp-production-1a3c.up.railway.app");
 
 export default function App() {
   const [username, setUsername] = useState("");
